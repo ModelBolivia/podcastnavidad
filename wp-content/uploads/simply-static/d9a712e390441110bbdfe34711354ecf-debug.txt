@@ -1,0 +1,977 @@
+[2024-12-25 04:19:18] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
+[2024-12-25 04:19:18] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-12-25 04:19:18] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
+[2024-12-25 04:19:26] [class-ss-archive-creation-job.php:172] Current task: setup
+[2024-12-25 04:19:26] [class-ss-archive-creation-job.php:182] Performing task: setup
+[2024-12-25 04:19:26] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-12-25 04:19:26] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358\
+[2024-12-25 04:19:26] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/podcastnavidad2025/
+[2024-12-25 04:19:26] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
+[2024-12-25 04:19:26] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2024-12-25 04:19:26] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2024-12-25 04:19:26] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-12-25 04:19:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/
+[2024-12-25 04:19:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-12-25 04:19:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:19:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87cea9592-8VJI3M.tmp
+[2024-12-25 04:19:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/?simply_static_page=1
+[2024-12-25 04:19:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/?simply_static_page=1
+[2024-12-25 04:19:37] [class-ss-url-fetcher.php:103] Filesize: 98990 bytes
+[2024-12-25 04:19:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-12-25 04:19:37] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-12-25 04:19:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87cea9592-8VJI3M.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/index.html
+[2024-12-25 04:19:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:19:38] [class-ss-fetch-urls-task.php:159] Adding 33 URLs to the queue
+[2024-12-25 04:19:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:19:39] [class-ss-page.php:119] Checking Content Identical:0f99dcaf7880924072c288427764043f54301eb9===. Value: FALSE
+[2024-12-25 04:19:39] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-12-25 04:19:39] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2024-12-25 04:19:39] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2024-12-25 04:19:39] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2024-12-25 04:19:39] [class-ss-fetch-urls-task.php:69] Total pages: 33; Pages remaining: 32
+[2024-12-25 04:19:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025
+[2024-12-25 04:19:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 33
+[2024-12-25 04:19:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:19:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87db5dfdb-WEXNJy.tmp
+[2024-12-25 04:19:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025?simply_static_page=2
+[2024-12-25 04:19:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025?simply_static_page=2
+[2024-12-25 04:19:39] [class-ss-url-fetcher.php:103] Filesize: 364 bytes
+[2024-12-25 04:19:39] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-12-25 04:19:39] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-12-25 04:19:39] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/podcastnavidad2025/
+[2024-12-25 04:19:39] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-12-25 04:19:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/uploads/2024/12/454582859_10231682348582354_7499923954517017489_n.jpg
+[2024-12-25 04:19:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 33
+[2024-12-25 04:19:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:19:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87db7a711-0l9pB0.tmp
+[2024-12-25 04:19:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/uploads/2024/12/454582859_10231682348582354_7499923954517017489_n.jpg?simply_static_page=3
+[2024-12-25 04:19:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/uploads/2024/12/454582859_10231682348582354_7499923954517017489_n.jpg?simply_static_page=3
+[2024-12-25 04:19:39] [class-ss-url-fetcher.php:103] Filesize: 7331 bytes
+[2024-12-25 04:19:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-25 04:19:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/454582859_10231682348582354_7499923954517017489_n.jpg
+[2024-12-25 04:19:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87db7a711-0l9pB0.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/uploads/2024/12/454582859_10231682348582354_7499923954517017489_n.jpg
+[2024-12-25 04:19:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:19:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:19:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:19:39] [class-ss-page.php:119] Checking Content Identical:82b6cd497f216ae70983a7b9a107f6f4c9336085===. Value: FALSE
+[2024-12-25 04:19:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/uploads/2024/12/Freddy-Model-Bolivia-.jpg
+[2024-12-25 04:19:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 33
+[2024-12-25 04:19:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:19:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87dbc1cb2-PWpg51.tmp
+[2024-12-25 04:19:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/uploads/2024/12/Freddy-Model-Bolivia-.jpg?simply_static_page=4
+[2024-12-25 04:19:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/uploads/2024/12/Freddy-Model-Bolivia-.jpg?simply_static_page=4
+[2024-12-25 04:19:39] [class-ss-url-fetcher.php:103] Filesize: 349328 bytes
+[2024-12-25 04:19:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-25 04:19:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/Freddy-Model-Bolivia-.jpg
+[2024-12-25 04:19:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87dbc1cb2-PWpg51.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/uploads/2024/12/Freddy-Model-Bolivia-.jpg
+[2024-12-25 04:19:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:19:40] [class-ss-page.php:119] Checking Content Identical:a1bc8a5942367ed4acbbb087c2da3c98a043d8dd===. Value: FALSE
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/uploads/2024/12/Historia-Marketing-Digital-Publicitario-Verde_20230919_142337_0000.jpg
+[2024-12-25 04:19:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 33
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87dc0f1ca-Xj4I1k.tmp
+[2024-12-25 04:19:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/uploads/2024/12/Historia-Marketing-Digital-Publicitario-Verde_20230919_142337_0000.jpg?simply_static_page=5
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/uploads/2024/12/Historia-Marketing-Digital-Publicitario-Verde_20230919_142337_0000.jpg?simply_static_page=5
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:103] Filesize: 243663 bytes
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/Historia-Marketing-Digital-Publicitario-Verde_20230919_142337_0000.jpg
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87dc0f1ca-Xj4I1k.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/uploads/2024/12/Historia-Marketing-Digital-Publicitario-Verde_20230919_142337_0000.jpg
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:19:40] [class-ss-page.php:119] Checking Content Identical:130566ddb0bbdeaa564034958318b77335afd3e0===. Value: FALSE
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/uploads/2024/12/Copia-de-Copia-de-Copia-de-Post-de-Instagram-Educacion-del-Futuro-STEAM-Creativa-Blanca.jpg
+[2024-12-25 04:19:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 33
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87dc3f27a-SBBybl.tmp
+[2024-12-25 04:19:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/uploads/2024/12/Copia-de-Copia-de-Copia-de-Post-de-Instagram-Educacion-del-Futuro-STEAM-Creativa-Blanca.jpg?simply_static_page=6
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/uploads/2024/12/Copia-de-Copia-de-Copia-de-Post-de-Instagram-Educacion-del-Futuro-STEAM-Creativa-Blanca.jpg?simply_static_page=6
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:103] Filesize: 255194 bytes
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/Copia-de-Copia-de-Copia-de-Post-de-Instagram-Educacion-del-Futuro-STEAM-Creativa-Blanca.jpg
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87dc3f27a-SBBybl.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/uploads/2024/12/Copia-de-Copia-de-Copia-de-Post-de-Instagram-Educacion-del-Futuro-STEAM-Creativa-Blanca.jpg
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:19:40] [class-ss-page.php:119] Checking Content Identical:cf974a61b8f00e7fd05e847e98d6ebcd3dadaebb===. Value: FALSE
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
+[2024-12-25 04:19:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 33
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87dc6fd10-YDwMB3.tmp
+[2024-12-25 04:19:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?simply_static_page=7
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?simply_static_page=7
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:103] Filesize: 8171 bytes
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87dc6fd10-YDwMB3.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:19:40] [class-ss-page.php:119] Checking Content Identical:60c8514c57a5db2980c4b046b0dd479bd427357b===. Value: FALSE
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-includes/js/dist/vendor/regenerator-runtime.min.js
+[2024-12-25 04:19:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 33
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87dca4b00-cb5CDw.tmp
+[2024-12-25 04:19:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-includes/js/dist/vendor/regenerator-runtime.min.js?simply_static_page=8
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-includes/js/dist/vendor/regenerator-runtime.min.js?simply_static_page=8
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:103] Filesize: 6625 bytes
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/regenerator-runtime.min.js
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87dca4b00-cb5CDw.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-includes/js/dist/vendor/regenerator-runtime.min.js
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:19:40] [class-ss-page.php:119] Checking Content Identical:0d792b33f12a48ee8aaaf2560a63a5682470645b===. Value: FALSE
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-includes/js/dist/vendor/wp-polyfill.min.js
+[2024-12-25 04:19:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 33
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87dcd817f-bCc1sz.tmp
+[2024-12-25 04:19:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-includes/js/dist/vendor/wp-polyfill.min.js?simply_static_page=9
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-includes/js/dist/vendor/wp-polyfill.min.js?simply_static_page=9
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:103] Filesize: 38590 bytes
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/wp-polyfill.min.js
+[2024-12-25 04:19:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87dcd817f-bCc1sz.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-includes/js/dist/vendor/wp-polyfill.min.js
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:19:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:19:41] [class-ss-page.php:119] Checking Content Identical:eab40ab4e77f92f2fb17684aaf44b579a51b8034===. Value: FALSE
+[2024-12-25 04:19:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-includes/js/dist/dom-ready.min.js
+[2024-12-25 04:19:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 33
+[2024-12-25 04:19:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87dd1894d-bVj4E0.tmp
+[2024-12-25 04:19:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-includes/js/dist/dom-ready.min.js?simply_static_page=10
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-includes/js/dist/dom-ready.min.js?simply_static_page=10
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:103] Filesize: 457 bytes
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/dom-ready.min.js
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87dd1894d-bVj4E0.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-includes/js/dist/dom-ready.min.js
+[2024-12-25 04:19:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:19:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:19:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:19:41] [class-ss-page.php:119] Checking Content Identical:3c03312717fb495c051d02a3d27ec0d8abc2557d===. Value: FALSE
+[2024-12-25 04:19:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-includes/js/dist/hooks.min.js
+[2024-12-25 04:19:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 33
+[2024-12-25 04:19:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87dd4ed04-CJzIEP.tmp
+[2024-12-25 04:19:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-includes/js/dist/hooks.min.js?simply_static_page=11
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-includes/js/dist/hooks.min.js?simply_static_page=11
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:103] Filesize: 4307 bytes
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/hooks.min.js
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87dd4ed04-CJzIEP.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-includes/js/dist/hooks.min.js
+[2024-12-25 04:19:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:19:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:19:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:19:41] [class-ss-page.php:119] Checking Content Identical:ee6aa3d65b474309376468b24bb6f829a4514809===. Value: FALSE
+[2024-12-25 04:19:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-includes/js/dist/i18n.min.js
+[2024-12-25 04:19:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 33
+[2024-12-25 04:19:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87dd9197e-pO9OXU.tmp
+[2024-12-25 04:19:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-includes/js/dist/i18n.min.js?simply_static_page=12
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-includes/js/dist/i18n.min.js?simply_static_page=12
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:103] Filesize: 9141 bytes
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/i18n.min.js
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87dd9197e-pO9OXU.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-includes/js/dist/i18n.min.js
+[2024-12-25 04:19:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:19:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:19:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:19:41] [class-ss-page.php:119] Checking Content Identical:9997a1745f48bdd233dbe9bd8164daa53eba105b===. Value: FALSE
+[2024-12-25 04:19:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/blocks/advance-slider/view-script.js
+[2024-12-25 04:19:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 33
+[2024-12-25 04:19:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87ddbecd7-gOs8pU.tmp
+[2024-12-25 04:19:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/blocks/advance-slider/view-script.js?simply_static_page=13
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/blocks/advance-slider/view-script.js?simply_static_page=13
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:103] Filesize: 1924 bytes
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/blocks/advance-slider/view-script.js
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87ddbecd7-gOs8pU.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/dist/blocks/advance-slider/view-script.js
+[2024-12-25 04:19:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:19:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:19:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:19:41] [class-ss-page.php:119] Checking Content Identical:6c6a9b1765896f6148cef04cdc5ec041c266b6dd===. Value: FALSE
+[2024-12-25 04:19:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-includes/js/jquery/jquery.min.js
+[2024-12-25 04:19:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 33
+[2024-12-25 04:19:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87dded7d2-XZdQuF.tmp
+[2024-12-25 04:19:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-includes/js/jquery/jquery.min.js?simply_static_page=14
+[2024-12-25 04:19:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-includes/js/jquery/jquery.min.js?simply_static_page=14
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87dded7d2-XZdQuF.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-includes/js/jquery/jquery.min.js
+[2024-12-25 04:19:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:19:42] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:19:42] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:19:42] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2024-12-25 04:19:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-12-25 04:19:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 33
+[2024-12-25 04:19:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87de28d30-j2Simd.tmp
+[2024-12-25 04:19:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=15
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=15
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87de28d30-j2Simd.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-12-25 04:19:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:19:42] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:19:42] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:19:42] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2024-12-25 04:19:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
+[2024-12-25 04:19:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 33
+[2024-12-25 04:19:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87de50099-g76V1m.tmp
+[2024-12-25 04:19:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js?simply_static_page=16
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js?simply_static_page=16
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:103] Filesize: 146374 bytes
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87de50099-g76V1m.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
+[2024-12-25 04:19:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:19:42] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:19:42] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:19:42] [class-ss-page.php:119] Checking Content Identical:7996d63abbbbe06e4ccbfdcfcc1979b4ef224eb6===. Value: FALSE
+[2024-12-25 04:19:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
+[2024-12-25 04:19:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 33
+[2024-12-25 04:19:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87de9ecb1-5CS9Lr.tmp
+[2024-12-25 04:19:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js?simply_static_page=17
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js?simply_static_page=17
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:103] Filesize: 17388 bytes
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87de9ecb1-5CS9Lr.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
+[2024-12-25 04:19:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:19:42] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:19:42] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:19:42] [class-ss-page.php:119] Checking Content Identical:41cd89ef41484b59d50b766f5c8755c9a9084018===. Value: FALSE
+[2024-12-25 04:19:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js
+[2024-12-25 04:19:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 33
+[2024-12-25 04:19:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87ded401f-CPJkdL.tmp
+[2024-12-25 04:19:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js?simply_static_page=18
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js?simply_static_page=18
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:103] Filesize: 3175 bytes
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js
+[2024-12-25 04:19:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87ded401f-CPJkdL.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js
+[2024-12-25 04:19:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:19:43] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:19:43] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:19:43] [class-ss-page.php:119] Checking Content Identical:3d01c6b78e40a9a7c54d2b224e3a47a2029f5e89===. Value: FALSE
+[2024-12-25 04:19:43] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js
+[2024-12-25 04:19:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 33
+[2024-12-25 04:19:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:19:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87df120ae-B4LlXk.tmp
+[2024-12-25 04:19:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js?simply_static_page=19
+[2024-12-25 04:19:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js?simply_static_page=19
+[2024-12-25 04:19:43] [class-ss-url-fetcher.php:103] Filesize: 2168 bytes
+[2024-12-25 04:19:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-25 04:19:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js
+[2024-12-25 04:19:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87df120ae-B4LlXk.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js
+[2024-12-25 04:19:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:19:43] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:19:43] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:19:43] [class-ss-page.php:119] Checking Content Identical:e3b1e4809103a536677d7f469e22585c072a3743===. Value: FALSE
+[2024-12-25 04:19:43] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/feed/
+[2024-12-25 04:19:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 33
+[2024-12-25 04:19:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:19:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87df4070d-NfM0Oa.tmp
+[2024-12-25 04:19:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/feed/?simply_static_page=20
+[2024-12-25 04:19:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/feed/?simply_static_page=20
+[2024-12-25 04:19:53] [class-ss-url-fetcher.php:103] Filesize: 2146 bytes
+[2024-12-25 04:19:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-12-25 04:19:53] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-12-25 04:19:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87df4070d-NfM0Oa.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/feed/index.xml
+[2024-12-25 04:19:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:19:53] [class-ss-fetch-urls-task.php:159] Adding 6 URLs to the queue
+[2024-12-25 04:19:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:19:54] [class-ss-page.php:119] Checking Content Identical:26f04712b69e19baa6bff0d55f03e7c43d29db73===. Value: FALSE
+[2024-12-25 04:19:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/comments/feed/
+[2024-12-25 04:19:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 33
+[2024-12-25 04:19:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:19:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87ea90bdb-0pAP7a.tmp
+[2024-12-25 04:19:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/comments/feed/?simply_static_page=21
+[2024-12-25 04:19:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/comments/feed/?simply_static_page=21
+[2024-12-25 04:19:59] [class-ss-url-fetcher.php:103] Filesize: 1837 bytes
+[2024-12-25 04:19:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-12-25 04:19:59] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-12-25 04:19:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87ea90bdb-0pAP7a.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/comments/feed/index.xml
+[2024-12-25 04:19:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:19:59] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-12-25 04:19:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:19:59] [class-ss-page.php:119] Checking Content Identical:bf6a572b2ce3d1502683813b5825325c20a7c8f0===. Value: FALSE
+[2024-12-25 04:19:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/blocks/advance-slider/style-index.css
+[2024-12-25 04:19:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 33
+[2024-12-25 04:19:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:19:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87ef42a06-ebr0c9.tmp
+[2024-12-25 04:19:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/blocks/advance-slider/style-index.css?simply_static_page=22
+[2024-12-25 04:19:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/blocks/advance-slider/style-index.css?simply_static_page=22
+[2024-12-25 04:19:59] [class-ss-url-fetcher.php:103] Filesize: 8103 bytes
+[2024-12-25 04:19:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-25 04:19:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/blocks/advance-slider/style-index.css
+[2024-12-25 04:19:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87ef42a06-ebr0c9.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/dist/blocks/advance-slider/style-index.css
+[2024-12-25 04:19:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:19:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:19:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:19:59] [class-ss-page.php:119] Checking Content Identical:bfb1c8850763a305d91df56f43961745c2da7494===. Value: FALSE
+[2024-12-25 04:20:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/css/lib/swiper-bundle.min.css
+[2024-12-25 04:20:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 33
+[2024-12-25 04:20:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87f01cfa6-UmTjki.tmp
+[2024-12-25 04:20:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/css/lib/swiper-bundle.min.css?simply_static_page=23
+[2024-12-25 04:20:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/css/lib/swiper-bundle.min.css?simply_static_page=23
+[2024-12-25 04:20:00] [class-ss-url-fetcher.php:103] Filesize: 13934 bytes
+[2024-12-25 04:20:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-25 04:20:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/css/lib/swiper-bundle.min.css
+[2024-12-25 04:20:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87f01cfa6-UmTjki.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/assets/css/lib/swiper-bundle.min.css
+[2024-12-25 04:20:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:00] [class-ss-page.php:119] Checking Content Identical:efac6d5e2e77579229edcf3eca3584e8a40f2822===. Value: FALSE
+[2024-12-25 04:20:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/blocks/testimonial/style-index.css
+[2024-12-25 04:20:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 33
+[2024-12-25 04:20:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87f0a0c19-KBNFHi.tmp
+[2024-12-25 04:20:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/blocks/testimonial/style-index.css?simply_static_page=24
+[2024-12-25 04:20:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/blocks/testimonial/style-index.css?simply_static_page=24
+[2024-12-25 04:20:00] [class-ss-url-fetcher.php:103] Filesize: 8740 bytes
+[2024-12-25 04:20:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-25 04:20:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/blocks/testimonial/style-index.css
+[2024-12-25 04:20:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87f0a0c19-KBNFHi.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/dist/blocks/testimonial/style-index.css
+[2024-12-25 04:20:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:00] [class-ss-page.php:119] Checking Content Identical:f3d6392bd51a26f900d17e913af55cde3b66d627===. Value: FALSE
+[2024-12-25 04:20:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
+[2024-12-25 04:20:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 33
+[2024-12-25 04:20:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87f0f1042-UhnhrQ.tmp
+[2024-12-25 04:20:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css?simply_static_page=25
+[2024-12-25 04:20:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css?simply_static_page=25
+[2024-12-25 04:20:01] [class-ss-url-fetcher.php:103] Filesize: 53538 bytes
+[2024-12-25 04:20:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-25 04:20:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
+[2024-12-25 04:20:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87f0f1042-UhnhrQ.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
+[2024-12-25 04:20:01] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:01] [class-ss-fetch-urls-task.php:159] Adding 15 URLs to the queue
+[2024-12-25 04:20:02] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:02] [class-ss-page.php:119] Checking Content Identical:505008c19dfd18238632e9039664a9795ebe64db===. Value: FALSE
+[2024-12-25 04:20:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css
+[2024-12-25 04:20:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 33
+[2024-12-25 04:20:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87f29e8ad-1jYWub.tmp
+[2024-12-25 04:20:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css?simply_static_page=26
+[2024-12-25 04:20:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css?simply_static_page=26
+[2024-12-25 04:20:02] [class-ss-url-fetcher.php:103] Filesize: 20338 bytes
+[2024-12-25 04:20:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-25 04:20:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css
+[2024-12-25 04:20:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87f29e8ad-1jYWub.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css
+[2024-12-25 04:20:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:02] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:02] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:02] [class-ss-page.php:119] Checking Content Identical:be3ec737e679ebabdf80221f9107ffb6a5e586fb===. Value: FALSE
+[2024-12-25 04:20:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-json/
+[2024-12-25 04:20:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 33
+[2024-12-25 04:20:02] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/podcastnavidad2025/wp-json/
+[2024-12-25 04:20:02] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-25 04:20:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/xmlrpc.php
+[2024-12-25 04:20:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 33
+[2024-12-25 04:20:02] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/podcastnavidad2025/xmlrpc.php
+[2024-12-25 04:20:02] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-25 04:20:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-12-25 04:20:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 33
+[2024-12-25 04:20:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87f2f1cba-hbkalf.tmp
+[2024-12-25 04:20:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=29
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=29
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87f2f1cba-hbkalf.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-12-25 04:20:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:03] [class-ss-page.php:119] Checking Content Identical:b86a6f0bf3fb4777160165dfe37ca4e99b90216e===. Value: FALSE
+[2024-12-25 04:20:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-12-25 04:20:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 33
+[2024-12-25 04:20:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87f329240-l3Fxu9.tmp
+[2024-12-25 04:20:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=30
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=30
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87f329240-l3Fxu9.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-12-25 04:20:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:03] [class-ss-page.php:119] Checking Content Identical:0fdff68c4027cf421d605798a1de46a061d160a3===. Value: FALSE
+[2024-12-25 04:20:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-12-25 04:20:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 33
+[2024-12-25 04:20:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87f3498ec-HgL2Om.tmp
+[2024-12-25 04:20:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=31
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=31
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87f3498ec-HgL2Om.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-12-25 04:20:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:03] [class-ss-page.php:119] Checking Content Identical:dc56f8308f3385b427ce85c20b9afc471be17c60===. Value: FALSE
+[2024-12-25 04:20:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/jost/Jost-VariableFont_wght.woff2
+[2024-12-25 04:20:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 33
+[2024-12-25 04:20:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87f36d0a7-8qwigN.tmp
+[2024-12-25 04:20:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/jost/Jost-VariableFont_wght.woff2?simply_static_page=32
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/jost/Jost-VariableFont_wght.woff2?simply_static_page=32
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:103] Filesize: 50396 bytes
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/jost/Jost-VariableFont_wght.woff2
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87f36d0a7-8qwigN.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/themes/twentytwentyfour/assets/fonts/jost/Jost-VariableFont_wght.woff2
+[2024-12-25 04:20:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:03] [class-ss-page.php:119] Checking Content Identical:b03bd24aa6cee674671fd806399ba87fc7619e4c===. Value: FALSE
+[2024-12-25 04:20:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/jost/Jost-Italic-VariableFont_wght.woff2
+[2024-12-25 04:20:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 33
+[2024-12-25 04:20:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87f38dd54-bntBeN.tmp
+[2024-12-25 04:20:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/jost/Jost-Italic-VariableFont_wght.woff2?simply_static_page=33
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/jost/Jost-Italic-VariableFont_wght.woff2?simply_static_page=33
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:103] Filesize: 62072 bytes
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/jost/Jost-Italic-VariableFont_wght.woff2
+[2024-12-25 04:20:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87f38dd54-bntBeN.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/themes/twentytwentyfour/assets/fonts/jost/Jost-Italic-VariableFont_wght.woff2
+[2024-12-25 04:20:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:03] [class-ss-page.php:119] Checking Content Identical:e460e570935c72400c82d6fe5f1eba2d2bf40608===. Value: FALSE
+[2024-12-25 04:20:03] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 33 pages/files
+[2024-12-25 04:20:03] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2024-12-25 04:20:13] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2024-12-25 04:20:13] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2024-12-25 04:20:13] [class-ss-fetch-urls-task.php:69] Total pages: 50; Pages remaining: 17
+[2024-12-25 04:20:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/hola-mundo/
+[2024-12-25 04:20:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 50
+[2024-12-25 04:20:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b87fd25c82-Xi121D.tmp
+[2024-12-25 04:20:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/hola-mundo/?simply_static_page=34
+[2024-12-25 04:20:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/hola-mundo/?simply_static_page=34
+[2024-12-25 04:20:18] [class-ss-url-fetcher.php:103] Filesize: 76629 bytes
+[2024-12-25 04:20:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-12-25 04:20:18] [class-ss-url-fetcher.php:233] New filename for static page: /hola-mundo/index.html
+[2024-12-25 04:20:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b87fd25c82-Xi121D.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/hola-mundo/index.html
+[2024-12-25 04:20:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:20] [class-ss-fetch-urls-task.php:159] Adding 38 URLs to the queue
+[2024-12-25 04:20:21] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:21] [class-ss-page.php:119] Checking Content Identical:a249e5ca554fc50e9773775523b3e399d9f0aa16===. Value: FALSE
+[2024-12-25 04:20:21] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/hola-mundo/feed/
+[2024-12-25 04:20:21] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 50
+[2024-12-25 04:20:21] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:21] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b8805af490-kz11xP.tmp
+[2024-12-25 04:20:21] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/hola-mundo/feed/?simply_static_page=35
+[2024-12-25 04:20:21] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/hola-mundo/feed/?simply_static_page=35
+[2024-12-25 04:20:25] [class-ss-url-fetcher.php:103] Filesize: 1790 bytes
+[2024-12-25 04:20:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-12-25 04:20:25] [class-ss-url-fetcher.php:233] New filename for static page: /hola-mundo/feed/index.xml
+[2024-12-25 04:20:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b8805af490-kz11xP.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/hola-mundo/feed/index.xml
+[2024-12-25 04:20:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:25] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-12-25 04:20:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:25] [class-ss-page.php:119] Checking Content Identical:ea732b5a5db72cc6eb8434fc86021f45174a4b84===. Value: FALSE
+[2024-12-25 04:20:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.eot
+[2024-12-25 04:20:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 50
+[2024-12-25 04:20:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b880a00cfe-z1HfRW.tmp
+[2024-12-25 04:20:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.eot?simply_static_page=36
+[2024-12-25 04:20:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.eot?simply_static_page=36
+[2024-12-25 04:20:26] [class-ss-url-fetcher.php:103] Filesize: 134396 bytes
+[2024-12-25 04:20:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-12-25 04:20:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.eot
+[2024-12-25 04:20:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b880a00cfe-z1HfRW.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.eot
+[2024-12-25 04:20:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:26] [class-ss-page.php:119] Checking Content Identical:5958a06de280ca88fd431cb53f99816b29f91aea===. Value: FALSE
+[2024-12-25 04:20:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff2
+[2024-12-25 04:20:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 50
+[2024-12-25 04:20:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b880a6b77b-ldCuRi.tmp
+[2024-12-25 04:20:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff2?simply_static_page=37
+[2024-12-25 04:20:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff2?simply_static_page=37
+[2024-12-25 04:20:26] [class-ss-url-fetcher.php:103] Filesize: 74288 bytes
+[2024-12-25 04:20:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-12-25 04:20:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff2
+[2024-12-25 04:20:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b880a6b77b-ldCuRi.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff2
+[2024-12-25 04:20:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:26] [class-ss-page.php:119] Checking Content Identical:0039be9d8a99d1e5cf200ca3e08757692020460e===. Value: FALSE
+[2024-12-25 04:20:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff
+[2024-12-25 04:20:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 50
+[2024-12-25 04:20:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b880aedf1a-EdnEeW.tmp
+[2024-12-25 04:20:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff?simply_static_page=38
+[2024-12-25 04:20:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff?simply_static_page=38
+[2024-12-25 04:20:27] [class-ss-url-fetcher.php:103] Filesize: 87048 bytes
+[2024-12-25 04:20:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-12-25 04:20:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff
+[2024-12-25 04:20:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b880aedf1a-EdnEeW.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff
+[2024-12-25 04:20:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:27] [class-ss-page.php:119] Checking Content Identical:e00a59950b59ba51e1bd1bce08d2f63d03a2268a===. Value: FALSE
+[2024-12-25 04:20:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.ttf
+[2024-12-25 04:20:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 50
+[2024-12-25 04:20:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b880b567ad-Qn2I8T.tmp
+[2024-12-25 04:20:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.ttf?simply_static_page=39
+[2024-12-25 04:20:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.ttf?simply_static_page=39
+[2024-12-25 04:20:27] [class-ss-url-fetcher.php:103] Filesize: 134160 bytes
+[2024-12-25 04:20:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-25 04:20:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.ttf
+[2024-12-25 04:20:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b880b567ad-Qn2I8T.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.ttf
+[2024-12-25 04:20:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:27] [class-ss-page.php:119] Checking Content Identical:7cba2133893eb41e742d630f1218a8ac151675c8===. Value: FALSE
+[2024-12-25 04:20:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.svg
+[2024-12-25 04:20:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 50
+[2024-12-25 04:20:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b880baf918-hg98S0.tmp
+[2024-12-25 04:20:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.svg?simply_static_page=40
+[2024-12-25 04:20:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.svg?simply_static_page=40
+[2024-12-25 04:20:28] [class-ss-url-fetcher.php:103] Filesize: 749737 bytes
+[2024-12-25 04:20:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-12-25 04:20:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.svg
+[2024-12-25 04:20:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b880baf918-hg98S0.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.svg
+[2024-12-25 04:20:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:28] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:28] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:28] [class-ss-page.php:119] Checking Content Identical:c4bd384d047cef886827bbf70fd6112a6de3c7b0===. Value: FALSE
+[2024-12-25 04:20:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.eot
+[2024-12-25 04:20:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 50
+[2024-12-25 04:20:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b880c8439e-e0XvyD.tmp
+[2024-12-25 04:20:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.eot?simply_static_page=41
+[2024-12-25 04:20:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.eot?simply_static_page=41
+[2024-12-25 04:20:28] [class-ss-url-fetcher.php:103] Filesize: 40308 bytes
+[2024-12-25 04:20:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-12-25 04:20:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.eot
+[2024-12-25 04:20:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b880c8439e-e0XvyD.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.eot
+[2024-12-25 04:20:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:28] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:28] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:28] [class-ss-page.php:119] Checking Content Identical:b55b6e468adfb5d52879ba9389cad2a2b97892c9===. Value: FALSE
+[2024-12-25 04:20:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff2
+[2024-12-25 04:20:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 50
+[2024-12-25 04:20:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b880d2a119-dLh69c.tmp
+[2024-12-25 04:20:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff2?simply_static_page=42
+[2024-12-25 04:20:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff2?simply_static_page=42
+[2024-12-25 04:20:29] [class-ss-url-fetcher.php:103] Filesize: 14872 bytes
+[2024-12-25 04:20:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-12-25 04:20:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff2
+[2024-12-25 04:20:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b880d2a119-dLh69c.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff2
+[2024-12-25 04:20:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:29] [class-ss-page.php:119] Checking Content Identical:a4c23e5bae96a5da2dba5599d56114faeb4a3495===. Value: FALSE
+[2024-12-25 04:20:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff
+[2024-12-25 04:20:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 50
+[2024-12-25 04:20:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b880d60955-rgdgha.tmp
+[2024-12-25 04:20:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff?simply_static_page=43
+[2024-12-25 04:20:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff?simply_static_page=43
+[2024-12-25 04:20:29] [class-ss-url-fetcher.php:103] Filesize: 18164 bytes
+[2024-12-25 04:20:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-12-25 04:20:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff
+[2024-12-25 04:20:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b880d60955-rgdgha.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff
+[2024-12-25 04:20:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:29] [class-ss-page.php:119] Checking Content Identical:26b552cb139041d3044c937e7879c9be2a8528bf===. Value: FALSE
+[2024-12-25 04:20:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.ttf
+[2024-12-25 04:20:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 50
+[2024-12-25 04:20:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b880d942fb-zyyYOL.tmp
+[2024-12-25 04:20:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.ttf?simply_static_page=44
+[2024-12-25 04:20:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.ttf?simply_static_page=44
+[2024-12-25 04:20:29] [class-ss-url-fetcher.php:103] Filesize: 40080 bytes
+[2024-12-25 04:20:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-25 04:20:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.ttf
+[2024-12-25 04:20:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b880d942fb-zyyYOL.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.ttf
+[2024-12-25 04:20:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:29] [class-ss-page.php:119] Checking Content Identical:3d58fd9d329aad13e48c4cbb0620cd47d583c047===. Value: FALSE
+[2024-12-25 04:20:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.svg
+[2024-12-25 04:20:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 50
+[2024-12-25 04:20:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b880ddf0a3-Dqeg07.tmp
+[2024-12-25 04:20:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.svg?simply_static_page=45
+[2024-12-25 04:20:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.svg?simply_static_page=45
+[2024-12-25 04:20:30] [class-ss-url-fetcher.php:103] Filesize: 139825 bytes
+[2024-12-25 04:20:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-12-25 04:20:30] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.svg
+[2024-12-25 04:20:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b880ddf0a3-Dqeg07.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.svg
+[2024-12-25 04:20:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:30] [class-ss-page.php:119] Checking Content Identical:fe20f0cbb72636ba416ba94eddb9d106a541185d===. Value: FALSE
+[2024-12-25 04:20:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.eot
+[2024-12-25 04:20:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 50
+[2024-12-25 04:20:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b880e72974-WQWCEP.tmp
+[2024-12-25 04:20:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.eot?simply_static_page=46
+[2024-12-25 04:20:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.eot?simply_static_page=46
+[2024-12-25 04:20:30] [class-ss-url-fetcher.php:103] Filesize: 209012 bytes
+[2024-12-25 04:20:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-12-25 04:20:30] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.eot
+[2024-12-25 04:20:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b880e72974-WQWCEP.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.eot
+[2024-12-25 04:20:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:30] [class-ss-page.php:119] Checking Content Identical:600b88c2053af11c6c7ea0491ff2554fda79ecbb===. Value: FALSE
+[2024-12-25 04:20:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff2
+[2024-12-25 04:20:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 50
+[2024-12-25 04:20:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b880ebfea4-0MEGqV.tmp
+[2024-12-25 04:20:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff2?simply_static_page=47
+[2024-12-25 04:20:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff2?simply_static_page=47
+[2024-12-25 04:20:31] [class-ss-url-fetcher.php:103] Filesize: 79100 bytes
+[2024-12-25 04:20:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-12-25 04:20:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff2
+[2024-12-25 04:20:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b880ebfea4-0MEGqV.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff2
+[2024-12-25 04:20:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:31] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:31] [class-ss-page.php:119] Checking Content Identical:28a1f2fadc35c5343e0280389fe7955e3d1be607===. Value: FALSE
+[2024-12-25 04:20:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff
+[2024-12-25 04:20:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 50
+[2024-12-25 04:20:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b880f4a276-HGFwAl.tmp
+[2024-12-25 04:20:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff?simply_static_page=48
+[2024-12-25 04:20:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff?simply_static_page=48
+[2024-12-25 04:20:31] [class-ss-url-fetcher.php:103] Filesize: 102224 bytes
+[2024-12-25 04:20:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-12-25 04:20:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff
+[2024-12-25 04:20:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b880f4a276-HGFwAl.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff
+[2024-12-25 04:20:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:31] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:31] [class-ss-page.php:119] Checking Content Identical:28b3d94d115d3e80c3ffd86239fd84638c88d463===. Value: FALSE
+[2024-12-25 04:20:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.ttf
+[2024-12-25 04:20:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 50
+[2024-12-25 04:20:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b881036979-yJamrt.tmp
+[2024-12-25 04:20:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.ttf?simply_static_page=49
+[2024-12-25 04:20:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.ttf?simply_static_page=49
+[2024-12-25 04:20:32] [class-ss-url-fetcher.php:103] Filesize: 208792 bytes
+[2024-12-25 04:20:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-25 04:20:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.ttf
+[2024-12-25 04:20:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b881036979-yJamrt.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.ttf
+[2024-12-25 04:20:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:32] [class-ss-page.php:119] Checking Content Identical:4f8bfab573ad1de9084b1f7675953e2008e3f459===. Value: FALSE
+[2024-12-25 04:20:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.svg
+[2024-12-25 04:20:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 50
+[2024-12-25 04:20:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b88108b1bd-09H7Vu.tmp
+[2024-12-25 04:20:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.svg?simply_static_page=50
+[2024-12-25 04:20:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.svg?simply_static_page=50
+[2024-12-25 04:20:32] [class-ss-url-fetcher.php:103] Filesize: 794054 bytes
+[2024-12-25 04:20:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-12-25 04:20:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.svg
+[2024-12-25 04:20:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b88108b1bd-09H7Vu.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.svg
+[2024-12-25 04:20:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:32] [class-ss-page.php:119] Checking Content Identical:27ff48cafd4ef630dda4f3a5007d66e824fcb4eb===. Value: FALSE
+[2024-12-25 04:20:32] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 33 of 50 pages/files
+[2024-12-25 04:20:32] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2024-12-25 04:20:36] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2024-12-25 04:20:36] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2024-12-25 04:20:36] [class-ss-fetch-urls-task.php:69] Total pages: 57; Pages remaining: 7
+[2024-12-25 04:20:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/author/freddycito14/
+[2024-12-25 04:20:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 57
+[2024-12-25 04:20:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b8814b260d-H20mAr.tmp
+[2024-12-25 04:20:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/author/freddycito14/?simply_static_page=51
+[2024-12-25 04:20:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/author/freddycito14/?simply_static_page=51
+[2024-12-25 04:20:40] [class-ss-url-fetcher.php:103] Filesize: 70261 bytes
+[2024-12-25 04:20:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-12-25 04:20:40] [class-ss-url-fetcher.php:233] New filename for static page: /author/freddycito14/index.html
+[2024-12-25 04:20:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b8814b260d-H20mAr.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/author/freddycito14/index.html
+[2024-12-25 04:20:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:40] [class-ss-fetch-urls-task.php:159] Adding 34 URLs to the queue
+[2024-12-25 04:20:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:41] [class-ss-page.php:119] Checking Content Identical:040504534f0bf6f7c8285bc0e5fdf23b58de41b9===. Value: FALSE
+[2024-12-25 04:20:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/category/sin-categoria/
+[2024-12-25 04:20:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 57
+[2024-12-25 04:20:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b881926e33-SAy3dO.tmp
+[2024-12-25 04:20:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/category/sin-categoria/?simply_static_page=52
+[2024-12-25 04:20:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/category/sin-categoria/?simply_static_page=52
+[2024-12-25 04:20:44] [class-ss-url-fetcher.php:103] Filesize: 70287 bytes
+[2024-12-25 04:20:44] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-12-25 04:20:44] [class-ss-url-fetcher.php:233] New filename for static page: /category/sin-categoria/index.html
+[2024-12-25 04:20:44] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b881926e33-SAy3dO.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/category/sin-categoria/index.html
+[2024-12-25 04:20:44] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:44] [class-ss-fetch-urls-task.php:159] Adding 34 URLs to the queue
+[2024-12-25 04:20:44] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:45] [class-ss-page.php:119] Checking Content Identical:52c481082918c8474150829d95ef812def692caa===. Value: FALSE
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-includes/js/comment-reply.min.js
+[2024-12-25 04:20:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 57
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b881d0850c-nLYt82.tmp
+[2024-12-25 04:20:45] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-includes/js/comment-reply.min.js?simply_static_page=53
+[2024-12-25 04:20:45] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-includes/js/comment-reply.min.js?simply_static_page=53
+[2024-12-25 04:20:45] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-12-25 04:20:45] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-25 04:20:45] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-12-25 04:20:45] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b881d0850c-nLYt82.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-includes/js/comment-reply.min.js
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:45] [class-ss-page.php:119] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-includes/blocks/image/style.min.css
+[2024-12-25 04:20:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 57
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b881d2723a-WGj8Mj.tmp
+[2024-12-25 04:20:45] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-includes/blocks/image/style.min.css?simply_static_page=54
+[2024-12-25 04:20:45] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-includes/blocks/image/style.min.css?simply_static_page=54
+[2024-12-25 04:20:45] [class-ss-url-fetcher.php:103] Filesize: 7049 bytes
+[2024-12-25 04:20:45] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-25 04:20:45] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
+[2024-12-25 04:20:45] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b881d2723a-WGj8Mj.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-includes/blocks/image/style.min.css
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:45] [class-ss-page.php:119] Checking Content Identical:105a2ff003b77aefd61ecfb419b4690caa4c47bc===. Value: FALSE
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-includes/css/dist/block-library/common.min.css
+[2024-12-25 04:20:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 57
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b881d4d5b0-m5fqI1.tmp
+[2024-12-25 04:20:45] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/wp-includes/css/dist/block-library/common.min.css?simply_static_page=55
+[2024-12-25 04:20:45] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/wp-includes/css/dist/block-library/common.min.css?simply_static_page=55
+[2024-12-25 04:20:45] [class-ss-url-fetcher.php:103] Filesize: 3503 bytes
+[2024-12-25 04:20:45] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-25 04:20:45] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/common.min.css
+[2024-12-25 04:20:45] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b881d4d5b0-m5fqI1.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/wp-includes/css/dist/block-library/common.min.css
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:45] [class-ss-page.php:119] Checking Content Identical:e22637b50dd6ae1c1f7a418ae2d0c803a362b7fa===. Value: FALSE
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-json/wp/v2/posts/1
+[2024-12-25 04:20:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 57
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/podcastnavidad2025/wp-json/wp/v2/posts/1
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-json/oembed/1.0/embed
+[2024-12-25 04:20:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 57
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/podcastnavidad2025/wp-json/oembed/1.0/embed
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-25 04:20:45] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 50 of 57 pages/files
+[2024-12-25 04:20:45] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2024-12-25 04:20:45] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2024-12-25 04:20:45] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:69] Total pages: 61; Pages remaining: 4
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/author/freddycito14/feed/
+[2024-12-25 04:20:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 61
+[2024-12-25 04:20:45] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b881d85b8d-XMGf7F.tmp
+[2024-12-25 04:20:45] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/author/freddycito14/feed/?simply_static_page=58
+[2024-12-25 04:20:45] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/author/freddycito14/feed/?simply_static_page=58
+[2024-12-25 04:20:48] [class-ss-url-fetcher.php:103] Filesize: 2208 bytes
+[2024-12-25 04:20:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-12-25 04:20:48] [class-ss-url-fetcher.php:233] New filename for static page: /author/freddycito14/feed/index.xml
+[2024-12-25 04:20:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b881d85b8d-XMGf7F.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/author/freddycito14/feed/index.xml
+[2024-12-25 04:20:48] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:48] [class-ss-fetch-urls-task.php:159] Adding 6 URLs to the queue
+[2024-12-25 04:20:48] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:48] [class-ss-page.php:119] Checking Content Identical:8015b57f8ee299b9ad72459f7feb9f19db06c21e===. Value: FALSE
+[2024-12-25 04:20:48] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-json/wp/v2/users/1
+[2024-12-25 04:20:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 61
+[2024-12-25 04:20:48] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/podcastnavidad2025/wp-json/wp/v2/users/1
+[2024-12-25 04:20:48] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-25 04:20:48] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/category/sin-categoria/feed/
+[2024-12-25 04:20:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 61
+[2024-12-25 04:20:48] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-25 04:20:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b8820dfce4-Zga1uZ.tmp
+[2024-12-25 04:20:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/category/sin-categoria/feed/?simply_static_page=60
+[2024-12-25 04:20:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/category/sin-categoria/feed/?simply_static_page=60
+[2024-12-25 04:20:51] [class-ss-url-fetcher.php:103] Filesize: 2215 bytes
+[2024-12-25 04:20:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-12-25 04:20:51] [class-ss-url-fetcher.php:233] New filename for static page: /category/sin-categoria/feed/index.xml
+[2024-12-25 04:20:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b8820dfce4-Zga1uZ.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358/category/sin-categoria/feed/index.xml
+[2024-12-25 04:20:51] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-25 04:20:51] [class-ss-fetch-urls-task.php:159] Adding 6 URLs to the queue
+[2024-12-25 04:20:51] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-25 04:20:51] [class-ss-page.php:119] Checking Content Identical:d227b49c256fd5004d0448e3a4ee808049853b86===. Value: FALSE
+[2024-12-25 04:20:51] [class-ss-fetch-urls-task.php:72] URL: http://localhost/podcastnavidad2025/wp-json/wp/v2/categories/1
+[2024-12-25 04:20:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 61
+[2024-12-25 04:20:51] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/podcastnavidad2025/wp-json/wp/v2/categories/1
+[2024-12-25 04:20:51] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-25 04:20:51] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 57 of 61 pages/files
+[2024-12-25 04:20:51] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2024-12-25 04:20:51] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2024-12-25 04:20:51] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2024-12-25 04:20:51] [class-ss-fetch-urls-task.php:69] Total pages: 61; Pages remaining: 0
+[2024-12-25 04:20:51] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 61 of 61 pages/files
+[2024-12-25 04:20:51] [class-ss-archive-creation-job.php:204] We've found our next task: generate_404
+[2024-12-25 04:20:51] [class-ss-archive-creation-job.php:172] Current task: generate_404
+[2024-12-25 04:20:51] [class-ss-archive-creation-job.php:182] Performing task: generate_404
+[2024-12-25 04:20:51] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-12-25 04:20:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/676b8823f25ce-qUcVX2.tmp
+[2024-12-25 04:20:51] [class-ss-page-handler.php:38] URL Prepared:http://localhost/podcastnavidad2025/1735100452?simply_static_page=0
+[2024-12-25 04:20:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/podcastnavidad2025/1735100452?simply_static_page=0
+[2024-12-25 04:20:55] [class-ss-url-fetcher.php:103] Filesize: 62825 bytes
+[2024-12-25 04:20:55] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-12-25 04:20:55] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-12-25 04:20:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/676b8823f25ce-qUcVX2.tmp to C:\xampp\htdocs\podcastnavidad2025/wp-content/uploads\simply-static\temp-files/simply-static-1-1735100358\404/index.html
+[2024-12-25 04:20:55] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-12-25 04:20:55] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-12-25 04:20:55] [class-ss-page.php:119] Checking Content Identical:015ac6dc9a1f7891d131dde9f60baf7f563dd1c9===. Value: FALSE
+[2024-12-25 04:20:55] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-12-25 04:20:55] [class-ss-archive-creation-job.php:204] We've found our next task: transfer_files_locally
+[2024-12-25 04:20:55] [class-ss-archive-creation-job.php:234] Cleaning on first run for task: transfer_files_locally
+[2024-12-25 04:20:55] [class-ss-archive-creation-job.php:172] Current task: transfer_files_locally
+[2024-12-25 04:20:55] [class-ss-archive-creation-job.php:182] Performing task: transfer_files_locally
+[2024-12-25 04:20:55] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/
+[2024-12-25 04:20:55] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/
+[2024-12-25 04:20:55] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/uploads/2024/12
+[2024-12-25 04:20:55] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/uploads/2024/12
+[2024-12-25 04:20:55] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/uploads/2024/12
+[2024-12-25 04:20:55] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/uploads/2024/12
+[2024-12-25 04:20:55] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/uploads/2024/12
+[2024-12-25 04:20:55] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/uploads/2024/12
+[2024-12-25 04:20:55] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/uploads/2024/12
+[2024-12-25 04:20:55] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/uploads/2024/12
+[2024-12-25 04:20:55] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-includes/js/dist/vendor
+[2024-12-25 04:20:55] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-includes/js/dist/vendor
+[2024-12-25 04:20:55] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-includes/js/dist/vendor
+[2024-12-25 04:20:55] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-includes/js/dist/vendor
+[2024-12-25 04:20:55] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-includes/js/dist/vendor
+[2024-12-25 04:20:55] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-includes/js/dist/vendor
+[2024-12-25 04:20:55] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-includes/js/dist
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-includes/js/dist
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-includes/js/dist
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-includes/js/dist
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-includes/js/dist
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-includes/js/dist
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/blocks/advance-slider
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/blocks/advance-slider
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-includes/js/jquery
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-includes/js/jquery
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-includes/js/jquery
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-includes/js/jquery
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/js/lib
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/js/lib
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/non-blocks/frontend
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/non-blocks/frontend
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/feed
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/feed
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/comments/feed
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/comments/feed
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/blocks/advance-slider
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/blocks/advance-slider
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/css/lib
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/css/lib
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/blocks/testimonial
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/blocks/testimonial
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/css
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/css
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/non-blocks/frontend
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/dist/non-blocks/frontend
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/jost
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/jost
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/jost
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/themes/twentytwentyfour/assets/fonts/jost
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/hola-mundo
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/hola-mundo
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/hola-mundo/feed
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/hola-mundo/feed
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/author/freddycito14
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/author/freddycito14
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/category/sin-categoria
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/category/sin-categoria
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-includes/js
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-includes/js
+[2024-12-25 04:20:56] [class-ss-transfer-files-locally-task.php:93] [Transfer] Total Pages:54. Processed Pages: 50
+[2024-12-25 04:20:56] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 50 of 54 files
+[2024-12-25 04:20:56] [trait-can-process-pages.php:112] Total pages: 54; Pages remaining: 4
+[2024-12-25 04:20:56] [class-ss-archive-creation-job.php:212] We're not done with the transfer_files_locally task yet
+[2024-12-25 04:20:59] [class-ss-archive-creation-job.php:172] Current task: transfer_files_locally
+[2024-12-25 04:20:59] [class-ss-archive-creation-job.php:182] Performing task: transfer_files_locally
+[2024-12-25 04:20:59] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-includes/blocks/image
+[2024-12-25 04:20:59] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-includes/blocks/image
+[2024-12-25 04:20:59] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/wp-includes/css/dist/block-library
+[2024-12-25 04:20:59] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/wp-includes/css/dist/block-library
+[2024-12-25 04:20:59] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/author/freddycito14/feed
+[2024-12-25 04:20:59] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/author/freddycito14/feed
+[2024-12-25 04:20:59] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/podcastnavidad2025/category/sin-categoria/feed
+[2024-12-25 04:20:59] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/podcastnavidad2025/category/sin-categoria/feed
+[2024-12-25 04:20:59] [class-ss-transfer-files-locally-task.php:93] [Transfer] Total Pages:54. Processed Pages: 54
+[2024-12-25 04:20:59] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 54 of 54 files
+[2024-12-25 04:20:59] [trait-can-process-pages.php:112] Total pages: 54; Pages remaining: 0
+[2024-12-25 04:20:59] [class-ss-transfer-files-locally-task.php:262] Transferring 404 Page
+[2024-12-25 04:20:59] [class-ss-transfer-files-locally-task.php:282] Destination 404 Page found at C:\xampp\htdocs\podcastnavidad2025\404\index.html
+[2024-12-25 04:20:59] [class-ss-transfer-files-locally-task.php:286] Success
+[2024-12-25 04:20:59] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://modelbolivia.github.io/podcastnavidad2025/" target="_blank">https://modelbolivia.github.io/podcastnavidad2025/</a>
+[2024-12-25 04:20:59] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
+[2024-12-25 04:20:59] [class-ss-archive-creation-job.php:172] Current task: wrapup
+[2024-12-25 04:20:59] [class-ss-archive-creation-job.php:182] Performing task: wrapup
+[2024-12-25 04:20:59] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-12-25 04:20:59] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-12-25 04:20:59] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
+[2024-12-25 04:20:59] [class-ss-archive-creation-job.php:244] Completing the job
+[2024-12-25 04:20:59] [class-ss-archive-creation-job.php:371] Status message: [done] Done! Finished in 00:01:41
